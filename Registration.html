@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main">
+        <h1>Registration Form</h1>
+        <form action="sample.com">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">Email address:</label>
+            <input type="text" name="email" id="email"><br>
+            <label for="pwd">Password:</label>
+            <input type="password" name="pwd" id="pwd"><br>
+            <label for="phno">Phone number:</label>
+            <input type="number" name="phno" id="phno"><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age"><br>
+            <p class="gender">Gender:
+                <label for="Male">Male</label>
+                <input type="radio" id="Male" name="gender">
+                <label for="Female">Female</label>
+                <input type="radio" id="Female" name="gender">
+            </p><br>
+            <p>Address:</p>
+            <label for="address"></label>
+            <textarea name="address" id="address" rows="10" cols="40" placeholder="type here:"></textarea><br>
+            <input type="submit" name="button" id="button" value="Submit">
+            <script src="Registration.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>
